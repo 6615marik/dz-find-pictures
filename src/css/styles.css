@@ -10,6 +10,7 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  background-color: rgb(101, 228, 232);
 }
 
 #search-box {
@@ -19,6 +20,15 @@ body {
   margin-bottom: 16px;
 }
 
+ul {
+  list-style: none;
+}
+
 img {
   width: 100px;
+}
+
+h1,
+h3 {
+  color: rgb(16, 9, 42);
 }

@@ -31,7 +31,7 @@ function CountriInfo(countries) {
         <img class="country_img" src="${country.flags.svg}" />
 
         <div class="country_body">
-          <h3>${country.name.official}</h3>
+          <h2>${country.name.official}</h3>
           <p>
             <b>Region: </b> ${country.region}
           </p>
@@ -80,4 +80,3 @@ function countryListSmal(countries) {
     .join('');
   ul.innerHTML = iteam;
 }
-document.querySelector('#search-box').placeholder = 'Search for any country...';
